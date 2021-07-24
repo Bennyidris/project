@@ -1,0 +1,577 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desa Paya mabar</title>
+
+<link rel="shortcut icon" href="images/ico3.png">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style-mobile.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="font/stylesheet.css"> 
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/slide/slippry.min.js"></script>
+<link rel="stylesheet" href="css/slippry.css">
+<script>
+			$(function() {
+				var demo1 = $("#demo1").slippry({
+					 transition: 'fade',
+					// useCSS: true,
+					 speed: 3000,
+					 pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+
+				$('.prev').click(function () {
+					demo1.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					demo1.goToNextSlide();
+					return false;
+				});
+				$('.reset').click(function () {
+					demo1.destroySlider();
+					return false;
+				});
+				$('.reload').click(function () {
+					demo1.reloadSlider();
+					return false;
+				});
+				$('.init').click(function () {
+					demo1 = $("#demo1").slippry();
+					return false;
+				});
+			});
+		</script>
+        
+<!-- Owl Carousel Assets -->
+<link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="owl-carousel/owl.theme.css" rel="stylesheet"> 
+
+<script src="js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+    $('.bxslider').bxSlider({
+      pagerCustom: '#bx-pager'
+    });
+	$(document).ready(function(){
+    $('.bxslider2').bxSlider({
+      pagerCustom: '#bx-pager2'
+    });
+	});
+});
+</script>
+
+<script type="text/javascript">
+var timeOut;
+function scrollToTop() {
+  if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+    window.scrollBy(0,-50);
+    timeOut=setTimeout('scrollToTop()',10);
+  }
+  else clearTimeout(timeOut);
+}
+</script>
+
+<link rel="stylesheet" type="text/css" href="menu-mob/css/component.css">
+<script src="menu-mob/js/modernizr.custom.js"></script>
+
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109408234-1');
+</script>
+
+
+ </head>
+<body>
+<!--Header-->
+<div class="header">
+	<div class="container_24">
+    	<div class="menu-mobile">
+			<div id="dl-menu" class="dl-menuwrapper">
+				<button class="dl-trigger">Open Menu</button>
+                   <ul class="#">
+                   <li><a href="#">BERANDA</a></li>
+                   <li><a href="#">PROFIL DESA</a>
+                      <ul class="dl-submenu"><li class="dl-back"><a href="#">Kembali</a></li>
+                      							<li><a href="#">Visi &amp; Misi</a></li>
+												<li><a href="#">Sejarah Desa</a></li>
+												<li><a href="#">Perangkat Desa</a></li>
+												<li><a href="#">Demografi Penduduk</a></li>
+												<li><a href="#">Fasilitas Umum</a></li>
+												<li><a href="#">Anggaran Desa</a></li>
+						                      </ul>
+                   </li>
+                   <li><a href="#">POTENSI</a></li>
+                   <li class="has-sub"><a href="#">INFORMASI</a>
+                      <ul class="dl-submenu"><li class="dl-back"><a href="#">Kembali</a></li>
+                         <li><a href="#">Berita</a></li>
+                         <li><a href="#">Kegiatan Desa</a></li>
+                         <li><a href="#">Mekanisme Ngurus Berkas</a></li>
+                      </ul>
+                   </li>
+                   <li><a href="#">GALERI</a>
+                   	  <ul class="dl-submenu"><li class="dl-back"><a href="#">Kembali</a></li>
+                      	                         <li><a href="#">Foto Desa</a></li>
+                                                 <li><a href="#">Foto Kegiatan</a></li>
+                                                 <li><a href="#">Video</a></li>
+                         
+                      </ul> 	
+                   </li>
+                   <li><a href="#">PETA DESA</a></li>
+                   <li><a href="#">KONTAK</a></li>
+                </ul>      
+			</div>
+    <!-- /dl-menuwrapper -->
+		</div>
+    	            	<div class="logo"><a href="#"><img src="./images/logo.jpg"></a></div>
+        <div class="menu-atas">
+        	<input type="text" placeholder=" Pencarian">
+        	<div class="menu">
+                <a href="#"><img src="images/ico-lok.png" style="margin-right:5px;">PETA DESA</a>
+                <a href="#" style="border-right:none;">KONTAK</a>
+            </div>
+        </div>
+        <div class="menu-bawah">
+        	<div id="cssmenu">
+                <ul>
+                   <li><a href="#">BERANDA</a></li>
+                   <li class="has-sub"><a href="#">PROFIL DESA</a>
+                      <ul>
+                      								<li><a href="#">Visi &amp; Misi</a></li>
+													<li><a href="sejarah.html">Sejarah Desa</a></li>
+													<li><a href="perangkat.html">Perangkat Desa</a></li>
+													<li><a href="desa.html">Demografi Penduduk</a></li>
+													<li><a href="#">Fasilitas Umum</a></li>
+													<li><a href="#">Anggaran Desa</a></li>
+						                      </ul>
+                   </li>
+                   <li><a href="#">POTENSI</a></li>
+                    <li class="has-sub"><a href="#">INFORMASI</a>
+                      <ul>
+                         <li><a href="#">Berita</a></li>
+                         <li><a href="#">Kegiatan Desa</a></li>
+                         <li><a href="#">Mekanisme Ngurus Berkas</a></li>
+                      </ul>
+                   </li>
+                   <li><a href="#">GALERI</a>
+                   	  <ul style="margin-left:-79px;">
+                      	                         <li><a href="#">Foto Desa</a></li>
+                                                 <li><a href="#">Foto Kegiatan</a></li>
+                                                 <li><a href="#">Video</a></li>
+                         
+                      </ul> 	
+                   </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End Header-->
+<!--Slide-->
+<div class="slide">
+	<section class="demo_wrapper">
+		<div class="sy-box">
+            <div class="sy-slides-wrap">
+                <div class="sy-slides-crop">
+                    <ul id="demo1" class="sy-list">
+                    	<li class="sy-slide fade useCSS" style="transition-duration: 3000ms; opacity: 0;"><a href="#slide1"><img src="./data_berita_foto/jalan2.JPG"></a></li>
+                    	<li class="sy-slide fade useCSS" style="transition-duration: 3000ms; opacity: 0;"><a href="#slide2"><img src="./data_berita_foto/jalan.jpg"></a></li>
+                    	<li class="sy-slide fade useCSS" style="transition-duration: 3000ms; opacity: 0;"><a href="#slide3"><img src="./data_foto_berita/.jpg"></a></li>
+                    	<li class="sy-slide fade useCSS transition" style="transition-duration: 3000ms; opacity: 0;"><a href="#slide4"><img src="./data_berita_foto/.jpg"></a></li>
+                    	<li class="sy-slide fade useCSS transition sy-active" style="transition-duration: 3000ms; opacity: 1;"><a href="#slide5"><img src="./data_berita_foto/kantor_desa.jpg"></a></li>
+                    </ul>
+                </div>
+                <ul class="sy-controls"><li class="sy-prev"><a href="#prev">Previous</a></li>
+                        <li class="sy-next"><a href="#next">Next</a></li></ul>
+                    <div class="sy-caption-wrap"><div class="sy-caption" style="display: none;"></div>
+                </div>
+                <div class="sy-filler ready" style="padding-top: 41.5899%;"></div>
+                </div>
+                <ul class="sy-pager">
+                    <li class="sy-active"><a href="#1">1</a></li>
+                    <li class="sy-active"><a href="#2">2</a></li>
+                    <li class="sy-active"><a href="#3">3</a></li>
+                    <li class="sy-active"><a href="#4">4</a></li>
+                    <li class="sy-active"><a href="#5">5</a></li>
+                </ul>
+            </div>
+    </section>    
+</div>
+<!--End Slide-->
+
+<div class="container_24">
+	<!--Konten Kiri-->
+    <div class="konten-kiri">
+    	    	<div class="judul">Selamat Datang di Desa Paya Mabar</div>
+        <div class="teks-atas">
+        	<p style="text-align:justify;">
+	Assalamualaikum <span class="skimlinks-unlinked">wr.wb</span><br>
+	Selamat Datang di �WEBSITE DESA PAYA MABAR�, Kami sajikan sekilas informasi untuk mengenal lebih dekat tentang Desa PAYA MABAR, Kecamatan TEBING TINGGI, Kabupaten SERDANG BEGADAI, Provinsi Sumatera Utara. Sistem informasi dan teknologi yang berkembang sangat cepat membuat kami harus menyesuaikan diri dengan perkembangan tersebut. Dengan lahirnya Website Desa Paya Mabar dan merupakan terobosan kami untuk lebih mendekatkan diri kepada masyarakat. Karena website ini dapat diakses oleh siapapun. Profil DESA, kegiatan dan program Desa serta jenis dan prosedur pelayanan dapat diakses oleh masyarakat secara langsung dan cepat. Semoga dengan adanya Desa Paya Mabar sebagai perwujudan peningkatan pelayanan Desa/kelurahan ini dapat memberikan manfaat. Namun perlu disadari bahwa website ini masih dalam tahap pengembangan untuk itu kritik dan saran yang sifatnya membangun sangat kami harapkan agar situs ini bisa lebih baik.<br>
+	Wassalamu`alaikum Wr, Wb.</p>
+<p style="text-align:justify;">
+	Kepala Desa Paya Mabar</p>
+        </div>
+        
+        <div class="judul">Berita Terkini</div>
+                <div class="box">
+        	<a href="#"><div class="box-pic"><div class="frame"><img src="./data_foto_berita/kantor_desa.jpg" title="sumut jadi tuan rumah TPO ke-10"></div></div></a>
+            <div class="judul"><a href="#">sumut </a></div>
+            <div class="tgl">Senin 28 Oktober 2019</div>
+            <div class="teks">
+            	
+	Jadi Tuan Rumah TPO ke-10, Sumut akan dikunjungi 1.500 Pejabat dari 16 Negara </div>
+            <div class="more"><a href="http://www.sumutprov.go.id">Selengkapnya �</a></div>
+        </div>
+                <div class="box">
+        	<a href="#"><div class="box-pic"><div class="frame"><img src="./data/foto_berita/compress2(3).JPG" title=""></div></div></a>
+            <div class="judul"><a href="#">Sergai Raih Juara Umum SSQ XVII tingkat Provsu tahun 2019  </a></div>
+            <div class="tgl">selasa 17 Oktober 2017</div>
+            <div class="teks">
+            	
+	serdang bedagai - Kafilah asal kabupaten Serdang Bedagai  berhasil meraih peringkat I umum pada ajang SSQ yang digelar ditempat asrama Haji Medan pada 17 - november-2019. 
+	 &amp;              </div>
+            <div class="more"><a href="http://mediacenter.serdangbedagaikab.go.id">Selengkapnya �</a></div>
+        </div>
+                
+        <div class="judul2">Potensi Desa</div><div class="garis"></div>
+        <div class="box2">
+        <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 627px;"><ul class="bxslider2" style="width: auto; position: relative;">
+        	  			<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: block;">
+            	<div class="pic"><img src="./data/foto_berita/compress1(2).JPG" title=""></div>
+            </li>
+              			<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+            	<div class="pic"><img src="./data/foto_berita/compress2.JPG" title=""></div>
+            </li>
+              			<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+            	<div class="pic"><img src="./data/foto_berita/compress1(3).JPG" title=""></div>
+            </li>
+              			<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+            	<div class="pic"><img src="./data/foto_berita/compress2(1).JPG" title=""></div>
+            </li>
+                    </ul>
+                </div>
+                <div class="bx-controls"></div>
+            </div>
+        </div>
+        <div id="bx-pager2">
+        	            <div class="ket1"> 
+			<a data-slide-index="0" href="" class="active">
+            	<div class="nama">......................</div>
+                </a>
+                <div class="more"><a data-slide-index="0" href=""></a>
+                    <a href="potensidesa-22-Untung.Menarik.dari.Persewaan.Alat.Pesta.html">Selengkapnya �</a></div>
+            
+            </div>
+                        <div class="ket1"><a data-slide-index="1" href="">
+            	<div class="nama">.............</div>
+                </a>
+                <div class="more"><a data-slide-index="1" href=""></a>
+                    <a href="potensidesa-21-Bisnis.Travel.yang.Masih.Menjanjikan.html">Selengkapnya �</a>
+                </div>
+            
+            </div>
+                        <div class="ket1"><a data-slide-index="2" href="">
+            	<div class="nama">................</div>
+                </a>
+                <div class="more"><a data-slide-index="2" href=""></a>
+                    <a href="potensidesa-20-Gurihnya.Untung.Usaha.Katering.html">Selengkapnya �</a></div>
+            
+            </div>
+                        <div class="ket1"> 
+			<a data-slide-index="3" href="">
+            	<div class="nama">................</div>
+                </a>
+                <div class="more"><a data-slide-index="3" href=""></a>
+                    <a href="potensidesa-19-Setia.dengan.Aglonema.html">Selengkapnya �</a></div>
+            
+            </div>
+            		</div>
+    </div>
+    <!--End Konten Kiri-->
+    
+    <!--Konten Kanan-->
+    <div class="konten-kanan">
+    	<div class="box"><a href="laporlurah.php"><img src="images/lapor.jpg"></a></div>
+        <div class="box"><a href="mekanisme.php"><img src="images/surat.jpg"></a></div>
+        <div class="box2"><a href="kegiatandesa.php"><img src="images/jadwal.jpg"></a></div>
+        
+        <div class="box3">
+            <div class="nav"></div>
+            <div class="nama">Rembug Warga</div>
+        </div>
+        
+        <div class="chat-box">
+            <iframe frameborder="0" width="318px" height="350px" id="1d71450020000138373488883" src="https://st.chatango.com/h5/gz/r0915191710/id.html"></iframe>
+            <script id="cid0020000138373488883_" data-cfasync="false" async="" src="//st.chatango.com/js/gz/emb.js" style="width: 318px;height: 350px;">
+            </script>
+        </div>
+</div>    <!--End Konten Kanan-->
+    
+    <!--Gallery-->
+    <div class="gallery-foto">
+     	<div class="judul">Galeri Foto</div>
+        <div class="frame">
+            	<div class="gambar-besar">
+                	<div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 636px;"><ul class="bxslider" style="width: auto; position: relative;">
+                    	  						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: block;">
+                        	<img src="./data_berita_foto/.JPG" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/20191104_101839.jpg" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data/foto_berita/compress8.JPG" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data/foto_berita/compress13.JPG" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                          						<li style="float: none; list-style: none; position: absolute; width: 825px; z-index: 0; display: none;">
+                        	<img src="./data_berita_foto/" title="-">
+                            <div class="judul-gambar">-</div>
+                        </li>
+                        					</ul></div><div class="bx-controls"></div></div>  
+                </div>
+                <div class="kanan">
+                	<div id="bx-pager">
+                    	 
+						<a data-slide-index="0" href="" class="active"><img src="./data_berita_foto/" title="-"></a>
+                         
+						<a data-slide-index="1" href=""><img src="./data_berita_foto/" title="-"></a>
+                         
+						<a data-slide-index="2" href=""><img src="./data_berita_foto/" title="-"></a>
+                         
+						<a data-slide-index="3" href=""><img src="./data_berita_foto/" title="-"></a>
+                         
+						<a data-slide-index="4" href=""><img src="./data_berita_foto/" title="-"></a>
+                         
+						<a data-slide-index="5" href=""><img src="./data_berita_foto/" title="-"></a>
+                         
+						<a data-slide-index="6" href=""><img src="./data_berita_foto/" title="-"></a>
+                         
+						<a data-slide-index="7" href=""><img src="./data_berita_foto/" title="-"></a>
+                        					</div>
+                </div>
+            </div>
+            <a href="galeri.php"><div class="more">Lihat Lebih Banyak</div></a>
+     </div>
+     <!--End Gallery-->
+     
+     <!--Link Terkait-->
+     <div class="link-terkait">
+     	<div class="judul"><img src="images/link.png" style="margin-left:5px; margin-right:15px;">LINK TERKAIT</div>
+        <div class="frame">
+            <div id="owl-demo1" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+            	                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2750px; left: 0px; display: block; transition: all 800ms ease 0s; transform: translate3d(-275px, 0px, 0px);"><div class="owl-item" style="width: 275px;"><div class="box">
+                	<a href="http://www.serdangbedagaikab.go.id/" target="_blank">
+                    <div class="pic"><img src="./data_berita_foto/"></div>
+                    <div class="nama">Website Kabupaten Serdang Bedagai</div>
+                    </a>
+            	</div></div><div class="owl-item" style="width: 275px;"><div class="box">
+                	<a href="http://www.sumutprov.go.id" target="_blank">
+                    <div class="pic"><img src="./images/sumut.jpg"></div>
+                    <div class="nama">Website Provinsi sumatera utara</div>
+                    </a>
+            	</div></div><div class="owl-item" style="width: 275px;"><div class="box">
+                	<a href="#" target="_blank">
+                    <div class="pic"><img src="./data_berita_foto/logo-apdesi_1_.jpg"></div>
+                    <div class="nama">APDESI</div>
+                    </a>
+            	</div></div><div class="owl-item" style="width: 275px;"><div class="box">
+                	<a href="http://desa.web.id" target="_blank">
+                    <div class="pic"><img src="./data_berita_foto/desa_1_.png"></div>
+                    <div class="nama">Website Desa Indonesia</div>
+                    </a>
+            	</div></div><div class="owl-item" style="width: 275px;"><div class="box">
+                	<a href="http://www.jitunews.com" target="_blank">
+                    <div class="pic"><img src="./data_berita_foto/jitu_1_.png"></div>
+                    <div class="nama"></div>
+                    </a>
+            	</div></div></div></div>
+                                
+                                
+                                
+                                
+                            <div class="owl-controls clickable" style="display: block;"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+			<script src="owl-carousel/owl.carousel.js"></script>
+            	<script>
+                                $(document).ready(function() {
+                            
+                                  var owl = $("#owl-demo1");
+                                  owl.owlCarousel({
+                            
+                                  items : 5, //10 items above 1000px browser width
+                                  itemsDesktop : [1000,5], //5 items between 1000px and 901px
+                                  itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+                                  itemsTablet: [500,2], //2 items between 600 and 0;
+                                  itemsMobile : false,
+								  autoPlay : 6000,
+    			 				  slideSpeed : 1100
+                                  });
+                                  
+                                  // Custom Navigation Events
+                                  $("#next").click(function(){
+                                    owl.trigger('owl.next');
+                                  })
+                                  $("#prev").click(function(){
+                                    owl.trigger('owl.prev');
+                                  })
+                                });
+              </script>
+        </div>
+     </div>
+     <!--End Link Terkait-->
+</div>
+<!--Footer-->
+<div class="footer-atas">
+	<div class="container_24">
+    	 <div class="logo"><img src="images/logo.jpg"></div>
+         <div class="alamat-bawah">
+         	<b>Kantor Desa Paya Mabar</b>
+            <p>
+	Tebing Tinggi, Serdang Bedagai</p>
+<p>
+	Sumatera Utara, Indonesia</p>
+<p>
+	<span style="color: rgb(91, 91, 91); font-family: Roboto, Arial;">&nbsp;20600</span></p>
+         </div>
+    </div>
+    <div class="atas"><a href="#" onclick="scrollToTop();return false"><img src="images/atas.png"></a></div>
+</div>
+<div class="footer-bawah">
+	<div class="container_24">
+    	Copyright 2019 � Desa Paya Mabar. All rights reserved. This website is created and developed by
+    </div>
+</div>
+<!--End Footer-->
+
+<script src="menu-mob/js/jquery.dlmenu.js"></script>
+<script>
+			$(function() {
+				$( '#dl-menu' ).dlmenu({
+					animationClasses : { classin : 'dl-animate-in-3', classout : 'dl-animate-out-3' }
+				});
+			});
+</script>   
+
+</body>
+</html>

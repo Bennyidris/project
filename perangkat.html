@@ -1,0 +1,346 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class=" js no-touch cssanimations csstransitions" style=""><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desa Metuk</title>
+<meta name="google-site-verification" content="Hk76KG8f2GNmYh1X47eaJAKJa0WFiL9vTeEDdI9QMO4">
+
+<link rel="shortcut icon" href="images/ico3.png">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style-mobile.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="font/stylesheet.css"> 
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script src="js/script.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/slide/slippry.min.js"></script>
+<link rel="stylesheet" href="css/slippry.css">
+<script>
+			$(function() {
+				var demo1 = $("#demo1").slippry({
+					 transition: 'fade',
+					// useCSS: true,
+					 speed: 3000,
+					 pause: 3000,
+					// auto: true,
+					// preload: 'visible',
+					// autoHover: false
+				});
+
+				$('.prev').click(function () {
+					demo1.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					demo1.goToNextSlide();
+					return false;
+				});
+				$('.reset').click(function () {
+					demo1.destroySlider();
+					return false;
+				});
+				$('.reload').click(function () {
+					demo1.reloadSlider();
+					return false;
+				});
+				$('.init').click(function () {
+					demo1 = $("#demo1").slippry();
+					return false;
+				});
+			});
+		</script>
+        
+<!-- Owl Carousel Assets -->
+<link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="owl-carousel/owl.theme.css" rel="stylesheet"> 
+
+<script src="js/jquery.bxslider.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+    $('.bxslider').bxSlider({
+      pagerCustom: '#bx-pager'
+    });
+	$(document).ready(function(){
+    $('.bxslider2').bxSlider({
+      pagerCustom: '#bx-pager2'
+    });
+	});
+});
+</script>
+
+<script type="text/javascript">
+var timeOut;
+function scrollToTop() {
+  if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+    window.scrollBy(0,-50);
+    timeOut=setTimeout('scrollToTop()',10);
+  }
+  else clearTimeout(timeOut);
+}
+</script>
+
+<link rel="stylesheet" type="text/css" href="menu-mob/css/component.css">
+<script src="menu-mob/js/modernizr.custom.js"></script>
+
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-109408234-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109408234-1');
+</script>
+
+
+ </head>
+<body>
+<!--Header-->
+<div class="header">
+	<div class="container_24">
+    	<div class="menu-mobile">
+			<div id="dl-menu" class="dl-menuwrapper">
+				<button class="dl-trigger">Open Menu</button>
+                   <ul class="dl-menu">
+                   <li><a href="index.php">BERANDA</a></li>
+                   <li><a href="#">PROFIL DESA</a>
+                      <ul class="dl-submenu"><li class="dl-back"><a href="#">Kembali</a></li>
+                      							<li><a href="profildesa-2-Visi.&amp;.Misi.html">Visi &amp; Misi</a></li>
+												<li><a href="profildesa-6-Sejarah.Desa.html">Sejarah Desa</a></li>
+												<li><a href="profildesa-47-Perangkat.Desa.html">Perangkat Desa</a></li>
+												<li><a href="profildesa-48-Demografi.Penduduk.html">Demografi Penduduk</a></li>
+												<li><a href="profildesa-49-Fasilitas.Umum.html">Fasilitas Umum</a></li>
+												<li><a href="profildesa-50-Anggaran.Desa.html">Anggaran Desa</a></li>
+						                      </ul>
+                   </li>
+                   <li><a href="potensipariwisata.php">POTENSI DAN PARIWISATA</a></li>
+                   <li class="has-sub"><a href="#">INFORMASI</a>
+                      <ul class="dl-submenu"><li class="dl-back"><a href="#">Kembali</a></li>
+                         <li><a href="berita.php">Berita</a></li>
+                         <li><a href="kegiatandesa.php">Kegiatan Desa</a></li>
+                         <li><a href="mekanisme.php">Mekanisme Ngurus Berkas</a></li>
+                      </ul>
+                   </li>
+                   <li><a href="#">GALERI</a>
+                   	  <ul class="dl-submenu"><li class="dl-back"><a href="#">Kembali</a></li>
+                      	                         <li><a href="galeri.php?id=3">Foto Desa</a></li>
+                                                 <li><a href="galeri.php?id=4">Foto Kegiatan</a></li>
+                                                 <li><a href="galeri.php?id=5">Video</a></li>
+                         
+                      </ul> 	
+                   </li>
+                   <li><a href="petadesa.php">PETA DESA</a></li>
+                   <li><a href="kontak.php">KONTAK</a></li>
+                </ul>      
+			</div><!-- /dl-menuwrapper -->
+		</div>
+    	            	<div class="logo"><a href="index.php"><img src="./data/foto_berita/logo Metuk_2_.png"></a></div>
+        <div class="menu-atas">
+        	<input type="text" placeholder=" Pencarian">
+        	<div class="menu">
+                <a href="petadesa.php"><img src="images/ico-lok.png" style="margin-right:5px;">PETA DESA</a>
+                <a href="kontak.php" style="border-right:none;">KONTAK</a>
+            </div>
+        </div>
+        <div class="menu-bawah">
+        	<div id="cssmenu">
+                <ul>
+                   <li><a href="index.php">BERANDA</a></li>
+                   <li class="has-sub"><a href="#">PROFIL DESA</a>
+                      <ul>
+                      								<li><a href="profildesa-2-Visi.&amp;.Misi.html">Visi &amp; Misi</a></li>
+													<li><a href="profildesa-6-Sejarah.Desa.html">Sejarah Desa</a></li>
+													<li><a href="profildesa-47-Perangkat.Desa.html">Perangkat Desa</a></li>
+													<li><a href="profildesa-48-Demografi.Penduduk.html">Demografi Penduduk</a></li>
+													<li><a href="profildesa-49-Fasilitas.Umum.html">Fasilitas Umum</a></li>
+													<li><a href="profildesa-50-Anggaran.Desa.html">Anggaran Desa</a></li>
+						                      </ul>
+                   </li>
+                   <li><a href="potensipariwisata.php">POTENSI DAN PARIWISATA</a></li>
+                    <li class="has-sub"><a href="#">INFORMASI</a>
+                      <ul>
+                         <li><a href="berita.php">Berita</a></li>
+                         <li><a href="kegiatandesa.php">Kegiatan Desa</a></li>
+                         <li><a href="mekanisme.php">Mekanisme Ngurus Berkas</a></li>
+                      </ul>
+                   </li>
+                   <li><a href="#">GALERI</a>
+                   	  <ul style="margin-left:-79px;">
+                      	                         <li><a href="galeri.php?id=3">Foto Desa</a></li>
+                                                 <li><a href="galeri.php?id=4">Foto Kegiatan</a></li>
+                                                 <li><a href="galeri.php?id=5">Video</a></li>
+                         
+                      </ul> 	
+                   </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End Header-->
+<div class="container_24">
+	<!--Konten Kiri-->
+    <div class="konten-kiri">
+    	<div class="link-atas">Beranda » Profil Desa » Perangkat Desa</div>
+    	<div class="judul3">Perangkat Desa</div>
+        <!--<div class="tgl-atas">Kamis, 23/06/2016, 07:17 WIB</div>-->
+                <div class="pic-pro"><img src="./data/foto_berita/Struktur-Organisasi-Desa-Metuk_edt(1).jpg"></div>
+                <div class="tekspro">
+        	        </div>
+    </div>
+    <!--End Konten Kiri-->
+    
+    <!--Konten Kanan-->
+    <div class="konten-kanan">
+    	<div class="box"><a href="laporlurah.php"><img src="images/lapor.jpg"></a></div>
+        
+        <div class="box"><a href="mekanisme.php"><img src="images/surat.jpg"></a></div>
+        
+        <div class="box2"><a href="kegiatandesa.php"><img src="images/jadwal.jpg"></a></div>
+        
+        <div class="box4">
+        	<div class="nama">Berita Terkini</div><div class="nav"></div>
+        </div>
+        	
+        <div class="box-berita">
+        	<div class="pic"><img src="./data/foto_berita/compress1(15).JPG" title="Boyolali Terapkan Aplikasi Tracking System"></div>
+            <div class="kanan">
+            	<a href="berita-10-Boyolali.Terapkan.Aplikasi.Tracking.System.html">Boyolali Terapkan Aplikasi Tracking System</a>
+                <div class="tgl">Rabu 18 Oktober 2017</div>
+            </div>
+        </div>
+        	
+        <div class="box-berita">
+        	<div class="pic"><img src="./data/foto_berita/compress2(3).JPG" title="Pertamina MOR IV Tambah Pasokan Elpiji"></div>
+            <div class="kanan">
+            	<a href="berita-9-Pertamina.MOR.IV.Tambah.Pasokan.Elpiji.html">Pertamina MOR IV Tambah Pasokan Elpiji</a>
+                <div class="tgl">Rabu 18 Oktober 2017</div>
+            </div>
+        </div>
+        	
+        <div class="box-berita">
+        	<div class="pic"><img src="./data/foto_berita/compress1(16).JPG" title="Pemkab Bangun Sentra UMKM"></div>
+            <div class="kanan">
+            	<a href="berita-8-Pemkab.Bangun.Sentra.UMKM.html">Pemkab Bangun Sentra UMKM</a>
+                <div class="tgl">Rabu 18 Oktober 2017</div>
+            </div>
+        </div>
+        	
+        <div class="box-berita">
+        	<div class="pic"><img src="./data/foto_berita/P_20170929_133953.jpg" title="Rekrutmen Perangkat Desa, Pemkab Gandeng Polres"></div>
+            <div class="kanan">
+            	<a href="berita-7-Rekrutmen.Perangkat.Desa,.Pemkab.Gandeng.Polres.html">Rekrutmen Perangkat Desa, Pemkab Gandeng Polres</a>
+                <div class="tgl">Rabu 18 Oktober 2017</div>
+            </div>
+        </div>
+                
+        <div class="box3">
+        	<div class="nav"></div><div class="nama">Rembug Warga</div>
+        </div>
+        <div class="chat-box">
+			<iframe frameborder="0" width="318px" height="350px" id="a949630020000138373488883" src="https://st.chatango.com/h5/gz/r0915191710/id.html"></iframe><script id="cid0020000138373488883_" data-cfasync="false" async="" src="//st.chatango.com/js/gz/emb.js" style="width: 318px;height: 350px;">{"handle":"metuk","arch":"js","styles":{"a":"D71A21","b":100,"c":"FFFFFF","d":"FFFFFF","k":"D71A21","l":"D71A21","m":"D71A21","n":"FFFFFF","p":"10","q":"D71A21","r":100,"fwtickm":1}}</script>
+        </div>
+</div>    <!--End Konten Kanan-->
+     
+    <!--Link Terkait-->
+    <div class="link-terkait">
+     	<div class="judul"><img src="images/link.png" style="margin-left:5px; margin-right:15px;">LINK TERKAIT</div>
+        <div class="frame">
+            <div id="owl-demo1" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+            	                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 1830px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 183px;"><div class="box">
+                	<a href="http://www.boyolalikab.go.id/" target="_blank">
+                    <div class="pic"><img src="./data/foto_berita/ico_2_.png"></div>
+                    <div class="nama">Website Kabupaten Boyolali</div>
+                    </a>
+            	</div></div><div class="owl-item" style="width: 183px;"><div class="box">
+                	<a href="http://www.jatengprov.go.id" target="_blank">
+                    <div class="pic"><img src="./data/foto_berita/jateng.png"></div>
+                    <div class="nama">Website Provinsi Jawa Tengah</div>
+                    </a>
+            	</div></div><div class="owl-item" style="width: 183px;"><div class="box">
+                	<a href="#" target="_blank">
+                    <div class="pic"><img src="./data/foto_berita/logo-apdesi_1_.jpg"></div>
+                    <div class="nama">APDESI</div>
+                    </a>
+            	</div></div><div class="owl-item" style="width: 183px;"><div class="box">
+                	<a href="http://desa.web.id" target="_blank">
+                    <div class="pic"><img src="./data/foto_berita/desa_1_.png"></div>
+                    <div class="nama">Website Desa Indonesia</div>
+                    </a>
+            	</div></div><div class="owl-item" style="width: 183px;"><div class="box">
+                	<a href="http://www.jitunews.com" target="_blank">
+                    <div class="pic"><img src="./data/foto_berita/jitu_1_.png"></div>
+                    <div class="nama"></div>
+                    </a>
+            	</div></div></div></div>
+                                
+                                
+                                
+                                
+                            <div class="owl-controls clickable" style="display: none;"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div></div></div></div>
+			<script src="owl-carousel/owl.carousel.js"></script>
+            	<script>
+                                $(document).ready(function() {
+                            
+                                  var owl = $("#owl-demo1");
+                                  owl.owlCarousel({
+                            
+                                  items : 5, //10 items above 1000px browser width
+                                  itemsDesktop : [1000,5], //5 items between 1000px and 901px
+                                  itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+                                  itemsTablet: [500,2], //2 items between 600 and 0;
+                                  itemsMobile : false,
+								  autoPlay : 6000,
+    			 				  slideSpeed : 1100
+                                  });
+                                  
+                                  // Custom Navigation Events
+                                  $("#next").click(function(){
+                                    owl.trigger('owl.next');
+                                  })
+                                  $("#prev").click(function(){
+                                    owl.trigger('owl.prev');
+                                  })
+                                });
+              </script>
+        </div>
+     </div>
+     <!--End Link Terkait-->
+</div>
+<!--Footer-->
+<div class="footer-atas">
+	<div class="container_24">
+    	 <div class="logo"><img src="./data/foto_berita/logo Metuk_2_.png"></div>
+         <div class="alamat-bawah">
+         	<b>Kantor Desa Metuk</b>
+            <p>
+	Sidorejo Metuk Boyolali</p>
+<p>
+	Jawa Tengah, Indonesia</p>
+<p>
+	<span style="color: rgb(91, 91, 91); font-family: Roboto, Arial;">&nbsp;57322</span></p>
+         </div>
+    </div>
+    <div class="atas"><a href="#" onclick="scrollToTop();return false"><img src="images/atas.png"></a></div>
+</div>
+<div class="footer-bawah">
+	<div class="container_24">
+    	Copyright 2016 © Desa Metuk. All rights reserved. This website is created and developed by Soloweb
+    </div>
+</div>
+<!--End Footer-->
+
+<script src="menu-mob/js/jquery.dlmenu.js"></script>
+<script>
+			$(function() {
+				$( '#dl-menu' ).dlmenu({
+					animationClasses : { classin : 'dl-animate-in-3', classout : 'dl-animate-out-3' }
+				});
+			});
+</script>   
+
+</body></html>

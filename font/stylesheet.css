@@ -1,0 +1,80 @@
+*
+font-face {
+  font-family: 'BerlinSansFB-Bold';
+  src: url('BerlinSansFB-Bold.eot?#iefix') format('embedded-opentype'),  url('BerlinSansFB-Bold.woff') format('woff'), url('BerlinSansFB-Bold.ttf')  format('truetype'), url('BerlinSansFB-Bold.svg#BerlinSansFB-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BigFatMarker';
+  src: url('BigFatMarker.eot?#iefix') format('embedded-opentype'),  url('BigFatMarker.woff') format('woff'), url('BigFatMarker.ttf')  format('truetype'), url('BigFatMarker.svg#BigFatMarker') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('OpenSans-Bold-webfont.eot');
+    src: url('OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Bold-webfont.woff') format('woff'),
+         url('OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'HelveticaLT';
+  src: url('HelveticaLT.eot?#iefix') format('embedded-opentype'),  url('HelveticaLT.woff') format('woff'), url('HelveticaLT.ttf')  format('truetype'), url('HelveticaLT.svg#HelveticaLT') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaLT-Condensed';
+  src: url('HelveticaLT-Condensed.eot?#iefix') format('embedded-opentype'),  url('HelveticaLT-Condensed.woff') format('woff'), url('HelveticaLT-Condensed.ttf')  format('truetype'), url('HelveticaLT-Condensed.svg#HelveticaLT-Condensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamBook';
+  src: url('GothamBook.eot?#iefix') format('embedded-opentype'),  url('GothamBook.woff') format('woff'), url('GothamBook.ttf')  format('truetype'), url('GothamBook.svg#GothamBook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SegoeUI-SemiBold';
+  src: url('SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'),  url('SegoeUI-SemiBold.woff') format('woff'), url('SegoeUI-SemiBold.ttf')  format('truetype'), url('SegoeUI-SemiBold.svg#SegoeUI-SemiBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family: 'gothambold1';
+	src: url('./gothambold1.eot');
+	src: local('gothambold1'), url('./gothambold1.woff') format('woff'), url('./gothambold1.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_5903">Text with this font applied</p> */
+.fontsforweb_fontid_5903 {
+	font-family: 'gothambold1' !important;
+}
+@font-face {
+    font-family: 'CalibriRegular';
+    src: url('calibri-webfont.eot');
+    src: url('calibri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calibri-webfont.woff') format('woff'),
+         url('calibri-webfont.ttf') format('truetype'),
+         url('calibri-webfont.svg#CalibriRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
